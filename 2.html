@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <title>김왼손에 대해</title>
+    <meta charset="utf-8">
+    <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    .saw {
+      color:gray;
+    }
+    #active {
+      color:red;
+    }
+    h1 {
+      font-size:40px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ul{
+      border-right:1px solid gray;
+      width:120px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns:170px 1fr;
+    }
+    #grid ul{
+      padding-left:30px;
+    }
+    #article{
+      padding-left:18px;
+    }
+    @media(max-width:645px) {
+      #grid{
+        display: block;
+      }
+      ul{
+        border-right:none;
+    }
+      h1 {
+      border-bottom:none;
+    }
+  }
+    </style>
+</head>
+<body>
+  <h1><a href="index.html">김왼손의 왼손코딩</a></h1>
+  <div id="grid">
+    <ul>
+      <li><a href="1.html" class="saw">왼손코딩에 대해</a></li>
+      <li><a href="2.html" class="saw" id="active">김왼손에 대해</a></li>
+      <li><a href="3.html" class="saw">집단지성에 대해</a></li>
+    </ul>
+    <div id="article">
+        <h2>김왼손에 대해</h2>
+        <p><strong>이름</strong>:김왼손<br><strong>나     이</strong>:30대로 추정<br><strong>장점</strong>:목소리 좋음, 강의실력 좋음, 기타실력 좋음<br><strong>단점</strong>:<u style="color:red">뻔뻔함, 거짓말을 많이 함</u><br><strong>특징</strong>:개 같이 생김(?), 시청자들과 소통하는 것을 좋아함, 코딩을 싫어함 <br><strong>정보</strong>:(현) LG전자 CTO부문 선임연구원<br>(현)<a href="https://www.youtube.com/channel/UC0h8NzL2vllvp3PjdoYSK4g/" target="_blank" title="김왼손의 왼손코딩 유튜브 채널">유튜브 교육채널 왼손코딩</a> 운영자<br>(현)코딩교육 플랫폼 엘리스 파이썬 강사<br>(전)프로그래밍 포기자, 코딩 혐오자<br>
+        </p>
+    </div>
+</div>
+</body>
+</html>
